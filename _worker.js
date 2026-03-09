@@ -18,7 +18,7 @@ export default {
 
     const incomingUrl = new URL(request.url);
     const path = incomingUrl.pathname.replace(/^\/+/, "");
-    const targetUrl = new URL(`https://vibe.j2team.org/${path}${incomingUrl.search}`);
+    const targetUrl = new URL(`https://tiktok.com/${path}${incomingUrl.search}`);
 
     const headers = new Headers();
     for (const [k, v] of request.headers.entries()) {
