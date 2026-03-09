@@ -18,7 +18,7 @@ export default {
 
     const incomingUrl = new URL(request.url);
     const path = incomingUrl.pathname.replace(/^\/+/, "");
-    const targetUrl = new URL(`https://netflix.com/${path}${incomingUrl.search}`);
+    const targetUrl = new URL(`https://www.netflix.com/vn/${path}${incomingUrl.search}`);
 
     const headers = new Headers();
     for (const [k, v] of request.headers.entries()) {
